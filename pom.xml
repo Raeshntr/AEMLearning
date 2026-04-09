@@ -411,6 +411,8 @@ Bundle-DocURL:
                     <artifactId>sling-maven-plugin</artifactId>
                  </plugin>
             -->
+
+            
             <activation>
                 <activeByDefault>false</activeByDefault>
             </activation>
@@ -514,7 +516,8 @@ Bundle-DocURL:
             </build>
         </profile>
     </profiles>
-
+    
+<!--check git brach creation-->
 
     <!-- ====================================================================== -->
     <!-- D E P E N D E N C I E S -->
